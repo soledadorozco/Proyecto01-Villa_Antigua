@@ -60,7 +60,8 @@ nav ul li a{
     padding: 3px 6px;
 }
 nav ul li a:hover{
-    text-decoration: underline; opacity: 0.5;
+    text-decoration: underline; 
+    opacity: 0.5;
 }
 nav ul li a.activo{
     text-decoration: underline;
@@ -538,16 +539,16 @@ div.noticias{
 }
 div.noticia{
     max-width: 461px;
-    min-height: 550px;
+    min-height: 618px;
     background-color: #fbf8e7;
 }
 .noticias .noticia h2,
-.noticias .noticia p,
-.noticias .noticia a{
+.noticias .noticia p{
     padding: 0 20px 0;
 }
 div.noticia:nth-child(n+4){
     margin-top: 100px;
+   /* min-height: 618px; */
 }
 div.modal-content{
     max-width: 70%; 
@@ -574,26 +575,18 @@ div.modal-content{
 .modal-body div.cita img{
     max-width: 60%;
 }
-.modal-body ul li{
-    font-size: 20px; 
-    text-align: justify;
-}
+.modal-body ul li,
 .modal-body ol li{
     font-size: 20px; 
     text-align: justify;
 }
 button.btn-primary{
+    background-color: rgb(45, 94, 143);
+    /* border: none; */
     position: relative;
     left: 20px;
-
+    top: 10px;
 }
-/* a{font-size: 20px; text-decoration: none;}
-a:hover{cursor: pointer; text-decoration: underline;}
-.flecha::after{
-    content:'⮞'; color: rebeccapurple;
-} */
-/*fin novedades*/
-
 /*inicio contacto*/
 div.social{
     display: flex;
