@@ -549,11 +549,49 @@ div.noticia{
 div.noticia:nth-child(n+4){
     margin-top: 100px;
 }
-a{font-size: 20px; text-decoration: none;}
+div.modal-content{
+    max-width: 70%; 
+    margin: 0 auto; 
+    margin-bottom: 40px;
+}
+.modal-title{
+    font-size: 45px;
+}
+.modal-body p{
+    font-size: 20px; 
+    text-align: justify;
+}
+.modal-body div.cita{
+    display: flex; 
+    margin-bottom: 20px;
+}
+.modal-body div.cita span{
+    font-size: 40px; 
+    font-style: italic; 
+    opacity: .5; 
+    margin-top: 10%;
+}
+.modal-body div.cita img{
+    max-width: 60%;
+}
+.modal-body ul li{
+    font-size: 20px; 
+    text-align: justify;
+}
+.modal-body ol li{
+    font-size: 20px; 
+    text-align: justify;
+}
+button.btn-primary{
+    position: relative;
+    left: 20px;
+
+}
+/* a{font-size: 20px; text-decoration: none;}
 a:hover{cursor: pointer; text-decoration: underline;}
 .flecha::after{
     content:'⮞'; color: rebeccapurple;
-}
+} */
 /*fin novedades*/
 
 /*inicio contacto*/

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villa Antigua</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
@@ -50,6 +52,7 @@
             <p>Las tendencias de la industria, las novedades, lo que viene. <br><br> Conocé el presente de la
                 vitivinicultura argentina y enterate de todo lo que tenés que saber acerca de nuestros vinos.</p>
         </div>
+        <!-- novedad 1 -->
         <div class="noticias">
             <div class="noticia">
                 <img src="img/eventos/terroirs.jpg" alt="terroirs">
@@ -57,8 +60,85 @@
                 <p>El concepto de terroir representa la columna vertebral de la vitivinicultura actual y de nuestra
                     filosofía de elaboración: para nosotros, tal como dice el Ing. Rafael Maturanno (p), el vino nace en
                     la finca.</p>
-                <a href="novedades/terroirs.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Por qué es interesante tener uvas de
+                                    distintos terroirs?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Con el terruño como punto de partida para obtener ejemplares únicos y singulares</p>
+                                <br><br><br>
+                                <p>El concepto de terroir representa la columna vertebral de la vitivinicultura actual y
+                                    de nuestra filosofía de elaboración: para nosotros, tal como dice el Ing. Rafael
+                                    Maturanno (p), el vino nace en la finca. La interacción entre el microclima, el
+                                    suelo, la geografía, las vides y el trabajo humano en un sitio determinado otorga al
+                                    vino un carácter y una personalidad específica que se percibe a través de sus
+                                    aromas, sabores y texturas.</p><br>
+                                <p>Con el terruño como punto de partida para obtener ejemplares únicos y singulares, que
+                                    se destaquen por su calidad y su impronta, la diversidad de fincas implantadas en
+                                    distintas zonas de Mendoza es uno de los pilares detrás de los vinos de Bodega Luigi
+                                    Bosca. Nuestras cuatro fincas están situadas en Luján de Cuyo, Maipú y Valle de Uco,
+                                    tres de los terruños más destacados de la Argentina. Así, cada una de ellas (El
+                                    Paraíso, Los Nobles, Miralejos y Los Miradores) aporta su unicidad a nuestra
+                                    colección de etiquetas.</p>
+                                <div class="cita">
+                                    <span>"En el caso de Bodega Villa Antigua, para nuestro Director de Enología Adrián
+                                        Eduardo Yonzo y su equipo, contar con uvas y vinos de distintas zonas de Mendoza
+                                        es sumamente enriquecedor"</span>
+                                    <img src="img/modal/hilera_1.jpg" alt="uvas">
+                                </div>
+                                <p>Las distintas zonas de la provincia en las que cosechamos nuestras uvas nos otorgan
+                                    frutos y vinos diferentes en su identidad. Ejemplares más o menos estructurados, con
+                                    taninos más o menos marcados, con una acidez pronunciada, más anchos en boca, con
+                                    mucho o poco nervio o de un corazón más dulce, entre muchos otros aspectos del vino
+                                    que se relacionan directamente con su terruño de origen. <br>
+                                    Por lo tanto, así como muchas veces los enólogos buscan trabajar con Single
+                                    Vineyards (ejemplares elaborados con uvas de un único viñedo para potenciar su
+                                    carácter), como en el caso de Finca Los Nobles Malbec, también es muy interesante
+                                    contar con elementos de distintas zonas para que cada una haga su aporte al vino
+                                    final. <br><br>
+
+                                    En el caso de Bodega Villa Antigua, para nuestro Director de Enología Adrián Yonzo y
+                                    su equipo, contar con uvas y vinos de distintas zonas de Mendoza es sumamente
+                                    enriquecedor. Al igual que sucede con los colores en el caso de un pintor, con los
+                                    acordes para un músico o con las especias para un chef, la posibilidad de mezclar
+                                    los atributos de las distintas fincas y tomar lo mejor de cada una de ellas -o lo
+                                    más adecuado para el resultado que se busca- abre un mundo de posibilidades. <br>
+                                    Además, es justamente allí, en el assemblage final de un vino -ya sea un varietal
+                                    elaborado con uvas de zonas diferentes o un blend- es donde se destaca especialmente
+                                    la mano del enólogo. El arte de combinar y amalgamar esos distintos componentes es
+                                    lo que convierte a un vino de terruño también en un vino de autor. <br><br>
+
+                                    Entre nuestra colección de vinos, dos de los ejemplares que mejor reflejan este
+                                    espíritu de búsqueda de la diversidad de fincas es Villa Antigua Cabernet Sauvignon
+                                    (elaborado con uvas de Maipú y Luján de Cuyo) y Luigi Bosca Malbec (proveniente de
+                                    Luján de Cuyo y Valle de Uco). Del mismo modo, incluso el varietal Luigi Bosca
+                                    Malbec DOC está elaborado con uvas de parcelas seleccionadas de viñedos ubicados en
+                                    distintas zonas de Luján de Cuyo: Las Compuertas, Vistalba y Agrelo. <br>
+                                    Como en muchos otros aspectos de la vida, sabemos que en el vino el todo también es
+                                    más que la suma de las partes. Por eso, nuestra diversidad en fincas permite a los
+                                    enólogos de la bodega lograr un resultado superador en cada uno de los vinos que
+                                    piensan y elaboran.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- novedad 2 -->
             <div class="noticia">
                 <iframe width="461" height="301" src="https://www.youtube.com/embed/9hLffwg7kqA"
                     title="YouTube video player" frameborder="0"
@@ -72,79 +152,586 @@
                     Spasiuk, Adriana Varela, Fabiana Cantilo, Pablo Lescano, Bahiano, Bersuit, Gillespie, Ruben
                     Rada, Alberto Hassan-</p>
             </div>
+            <!-- novedad 3 -->
             <div class="noticia">
                 <img src="img/eventos/aperitivo.jpg" alt="aperitivo">
                 <h2>Tendencia: Vinos de aperitivo. Los protagonistas: vinos blancos y rossè.</h2>
-                <p>En los últimos años las generaciones más jóvenes tomaron esta tradición de sus padres y abuelos y la convirtieron en una verdadera tendencia que -más allá del clásico vermouth- tiene a los vinos como protagonistas.</p>
-                <a href="/novedades/aperitivo.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <p>En los últimos años las generaciones más jóvenes tomaron esta tradición de sus padres y abuelos y la
+                    convirtieron en una verdadera tendencia que -más allá del clásico vermouth- tiene a los vinos como
+                    protagonistas.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_3">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Tendencia: Vinos de aperitivo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>El aperitivo es una costumbre muy arraigada en nuestro país que tiene sus orígenes en
+                                    la inmigración europea de comienzos del siglo XX. Sin embargo, en los últimos años
+                                    las generaciones más jóvenes tomaron esta tradición de sus padres y abuelos y la
+                                    convirtieron en una verdadera tendencia que -más allá del clásico vermouth- tiene a
+                                    los vinos como protagonistas.</p>
+                                <p>Lo primero que debemos saber es que no todos los vinos son adecuados para beber como
+                                    aperitivo. Aquellos que se toman antes de las comidas, para “abrir el apetito”,
+                                    suelen tener ciertas características muy marcadas como sabores frescos y algo ácidos
+                                    que despiertan los sentidos y preparan las papilas gustativas para lo que vendrá.
+                                    Son ejemplares jóvenes y livianos, con impronta frutal, muy buena acidez y crianzas
+                                    breves en madera -solo en el caso de los tintos-. <br><br> Los mejores estilos de
+                                    vino para beber como aperitivo:</p>
+                                <ul>
+                                    <li>Blancos jóvenes y frescos: Son los vinos de aperitivo por excelencia en todo el
+                                        mundo, perfectos para beberlos solos o acompañar un amuse bouche. Estos blancos
+                                        suelen ser ligeros, cítricos, aromáticos, ágiles, refrescantes, de muy buena
+                                        acidez y bajo contenido alcohólico.
+                                        En general, lo más adecuado es optar por un Torrontés o un Sauvignon Blanc como
+                                        Luigi Bosca Sauvignon Blanc, un blanco filoso y vertical, apoyado en la fruta
+                                        fresca ácida y de gran tipicidad varietal.</li><br>
+
+                                    <li>Rosados estilo Provenza: Los rosados secos actuales, tan distintos a esos vinos
+                                        dulces de estilo californiano, también son una gran alternativa para beber antes
+                                        de la comida. Por su acidez pronunciada, su impronta frutal, su delicadeza y su
+                                        cuerpo medio, son una buena alternativa para tomar solos o acompañar finger food
+                                        a base de salmón o frituras de mar.
+                                        Elaborado a partir de la variedad Pinot Noir, Luigi Bosca Rosé es un rosado de
+                                        aromas vibrantes, vivaz y refrescante, con un carácter expresivo muy frutal que
+                                        lo convierte en un gran aperitivo.</li><br>
+                                    <li>Espumantes secos: Por su versatilidad, los espumantes pueden acompañar una
+                                        comida desde el aperitivo hasta el postre. Sin embargo, para esta instancia lo
+                                        mejor es optar por ejemplares de aromas equilibrados, sutiles y refrescantes;
+                                        que pueden beberse solos o bien ser acompañados por tablas de quesos duros.
+                                        Un fiel exponente de este estilo es Luigi Bosca Brut Nature, un vino con
+                                        carácter propio elaborado bajo el método tradicional a partir de las variedades
+                                        de la Champagne (Chardonnay y Pinot Noir).</li><br>
+                                    <li>Tintos jóvenes y ligeros: Los vinos tintos también pueden ser grandes aliados
+                                        del aperitivo siempre y cuando se elija los ejemplares correctos: frescos,
+                                        fluidos, con una acidez vivaz y buena tipicidad de fruta. Además, son vinos con
+                                        crianzas muy cortas o parciales en madera.
+                                        Dentro de esta categoría, Luigi Bosca Pinot Noir es un vino que se destaca por
+                                        su frescura, tensión y cuerpo medio. Con un paladar vivaz, un carácter definido
+                                        y un final expresivo, es ideal para acompañar langostinos grillados como
+                                        aperitivo.</li><br><br>
+                                </ul>
+                                <div class="cita">
+                                    <span>"Lo primero que debemos saber es que no todos los vinos son adecuados para
+                                        beber como aperitivo."</span>
+                                    <img src="img/modal/resto_2.jfif" alt="">
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- novedad 4    -->
             <div class="noticia">
                 <img src="img/eventos/blend.jpg" alt="blend">
                 <h2>¿Por qué los blends encarnan el estilo de una bodega?</h2>
                 <p>Históricamente, los cortes son los ejemplares más característicos del Viejo Mundo, ya que la
                     mayor parte de los vinos emblemáticos de Europa son producto de la mezcla entre distintas cepas
                     provenientes de un mismo terroir.</p>
-                <a href="/novedades/blend.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_4">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Por qué los blends encarnan el estilo de
+                                    una bodega?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Un gran blend es un minucioso trabajo autoral</p><br><br>
+                                <p>A simple vista, la primera impresión que tenemos sobre un vino es si es un tinto, un
+                                    blanco, un rosado o un espumante. Sin embargo, hay una segunda división profunda en
+                                    el mundo de la vitivinicultura: los varietales y blends. Los varietales son aquellos
+                                    vinos elaborados con -al menos- un 85% de un mismo cepaje; en cambio, los blends (o
+                                    vinos de corte) son creados a partir de dos o más variedades de uva. <br>
+                                    Históricamente, los cortes son los ejemplares más característicos del Viejo Mundo,
+                                    ya que la mayor parte de los vinos emblemáticos de Europa son producto de la mezcla
+                                    entre distintas cepas provenientes de un mismo terroir. La tendencia de la
+                                    varietalidad, en cambio, nació a partir de la década del ‘70 en el Nuevo Mundo, más
+                                    específicamente en Estados Unidos, cuando las etiquetas comenzaron a llevar el
+                                    nombre de la uva con la que el vino había sido elaborado. <br>
+                                    Hoy en día, podemos afirmar que, tal como sucede en muchos de los grandes terruños
+                                    del mundo, también en la Argentina son los cortes los que mejor expresan y encarnan
+                                    el estilo de una casa productora. Esto sucede porque incluso desde antes de ser
+                                    elaborados, los blends se originan en la cabeza del enólogo de la bodega. Ya desde
+                                    el trabajo en las fincas, los equipos de agronomía y enología tienen en mente las
+                                    características del vino que buscan elaborar, por lo que conocen y seleccionan los
+                                    distintos componentes que van a integrar el corte final. Como todo vino, un gran
+                                    corte también nace en la finca. <br>
+                                    Por lo tanto, en los blends es donde más presente está la mano del enólogo, ya que
+                                    es él quien crea, a partir de distintos elementos, una obra final. La palabra “obra”
+                                    no fue elegida al azar, ya que un corte es justamente eso: el resultado entre
+                                    intuición, imaginación, creatividad, ciencia y arte. <br><br>
+
+                                    Además, en muchos casos los agrónomos y enólogos también seleccionan para estos
+                                    vinos las parcelas de un viñedo que otorgan características extraordinarias, ya sea
+                                    por su alta calidad como por dar expresiones muy diferentes, que sean un fiel
+                                    reflejo del carácter de ese terruño puntual. Así, un gran blend es un minucioso
+                                    trabajo autoral en el que se ve reflejado la impronta de su hacedor, su conocimiento
+                                    y experiencia en vitivinicultura, y el estilo de la bodega</p><br><br>
+                                <div class="cita">
+                                    <span>"De Sangre Red Blend es uno de los cortes tintos emblemáticos de Bodega Villa
+                                        Antigua."</span>
+                                    <img src="img/modal/red_blend.jpg" alt="dispensador">
+                                </div>
+                                <p>ST: De Sangre Red Blend: ¿Cómo se elabora?<br>
+                                    De Sangre Red Blend es uno de los cortes tintos emblemáticos de Bodega Villa
+                                    Antigua. Para su elaboración, el Ing. Rafael Maturanno(p) junto al enólogo Adrián
+                                    Eduardo Yonzo eligen personalmente aquellos lotes específicos de fincas situadas en
+                                    Las Compuertas y Agrelo que les permiten lograr un vino sobrio y elegante. Un corte
+                                    que encarna el espíritu de la familia Maturanno. <br><br>
+                                    Se trata de un blend elaborado a base de Cabernet Sauvignon (78%) con aportes de
+                                    Syrah (12%) y Merlot (10%) criado durante 14 meses en barricas de roble. Se
+                                    distingue por sus aromas a fruta negra, pimienta y té, equilibrados con leves notas
+                                    ahumadas del paso por madera. En boca es compacto, maduro, con taninos incipientes y
+                                    textura redonda. Un vino con mucho carácter, muy buena acidez, y un final complejo y
+                                    profundo. <br>
+                                    Como todo gran corte, este vino equilibrado y elegante refleja la sabiduría de sus
+                                    curadores y el estilo que distingue a Bodega Villa Antigua.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- novedad 5 -->
             <div class="noticia">
                 <img src="img/eventos/vendimia.jpg" alt="vendimia">
                 <h2>¿Qué nos dice la vendimia 2022 de los varietales que encabezan la producción?</h2>
-                <p>Tras un invierno y una primavera en 2021 con un clima beneficioso para el desarrollo de la vid. En el mes de febrero comienza el momento más importante del año para la industria vitivinícola:
+                <p>Tras un invierno y una primavera en 2021 con un clima beneficioso para el desarrollo de la vid. En el
+                    mes de febrero comienza el momento más importante del año para la industria vitivinícola:
                     la vendimia.</p>
-                <a href="/novedades/vendimia.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_5">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Qué nos dice la vendimia 2022?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>En Bodega Villa Antigua, la cosecha empezó a principios de este mes</p><br><br>
+                                <p>En el mes de febrero comienza el momento más importante del año para la industria
+                                    vitivinícola: la vendimia. El resultado del trabajo de 12 meses en las fincas se
+                                    materializa en la cosecha, la conclusión del ciclo anual de la vid. La obtención de
+                                    uvas sanas, en su punto justo de madurez, es indispensable para elaborar vinos de
+                                    alta calidad. <br><br>
+
+                                    En Bodega Luigi Bosca, la cosecha empezó a principios de este mes con las uvas Pinot
+                                    Noir de Finca El Paraíso, en Maipú, con las que se elaborará vino rosado. También en
+                                    El Paraíso y en la Finca Don Leoncio se cosecharon las variedades blancas Sauvignon
+                                    Blanc y Chardonnay. Luego, la vendimia continuó en el Valle de Uco, en el
+                                    departamento de Tupungato, con uvas Pinot Noir y Chardonnay para la elaboración de
+                                    espumantes. Próximamente, llegará el turno de las cepas tintas que se recolectarán
+                                    entre comienzos y mediados de marzo.<br>
+                                    Históricamente, los cortes son los ejemplares más característicos del Viejo Mundo,
+                                    ya que la mayor parte de los vinos emblemáticos de Europa son producto de la mezcla
+                                    entre distintas cepas provenientes de un mismo terroir. La tendencia de la
+                                    varietalidad, en cambio, nació a partir de la década del ‘70 en el Nuevo Mundo, más
+                                    específicamente en Estados Unidos, cuando las etiquetas comenzaron a llevar el
+                                    nombre de la uva con la que el vino había sido elaborado. <br>
+                                    Hoy en día, podemos afirmar que, tal como sucede en muchos de los grandes terruños
+                                    del mundo, también en la Argentina son los cortes los que mejor expresan y encarnan
+                                    el estilo de una casa productora. Esto sucede porque incluso desde antes de ser
+                                    elaborados, los blends se originan en la cabeza del enólogo de la bodega. Ya desde
+                                    el trabajo en las fincas, los equipos de agronomía y enología tienen en mente las
+                                    características del vino que buscan elaborar, por lo que conocen y seleccionan los
+                                    distintos componentes que van a integrar el corte final. Como todo vino, un gran
+                                    corte también nace en la finca. <br>
+                                    Por lo tanto, en los blends es donde más presente está la mano del enólogo, ya que
+                                    es él quien crea, a partir de distintos elementos, una obra final. La palabra “obra”
+                                    no fue elegida al azar, ya que un corte es justamente eso: el resultado entre
+                                    intuición, imaginación, creatividad, ciencia y arte. <br><br>
+
+                                    Además, en muchos casos los agrónomos y enólogos también seleccionan para estos
+                                    vinos las parcelas de un viñedo que otorgan características extraordinarias, ya sea
+                                    por su alta calidad como por dar expresiones muy diferentes, que sean un fiel
+                                    reflejo del carácter de ese terruño puntual. Así, un gran blend es un minucioso
+                                    trabajo autoral en el que se ve reflejado la impronta de su hacedor, su conocimiento
+                                    y experiencia en vitivinicultura, y el estilo de la bodega</p><br><br>
+                                <div class="cita">
+                                    <span>"Tras un invierno y una primavera en 2021 con un clima beneficioso para el
+                                        desarrollo de la vid, esta etapa final de madurez durante el verano también ha
+                                        sido muy buena"</span>
+                                    <img src="img/modal/racimo_2 (1).jpg" alt="uvas">
+                                </div>
+                                <p>Tras un invierno y una primavera en 2021 con un clima beneficioso para el desarrollo
+                                    de la vid, esta etapa final de madurez durante el verano también ha sido muy buena.
+                                    A pesar de que la humedad fue mayor al promedio y en algunas zonas las
+                                    precipitaciones superaron los 350 mililitros, las uvas de sanas y equilibradas que
+                                    estamos cosechando prometen vinos de gran calidad. <br><br>
+
+                                    Tanto en Luján de Cuyo como en el Valle de Uco (los terruños en los que están
+                                    implantados nuestras fincas), en estos primeros meses de 2022 el clima fue fresco, a
+                                    excepción de las dos primeras semanas de enero en las que se vivió una importante
+                                    ola de calor. Otro factor climático relevante fue una helada tardía a principios del
+                                    pasado octubre que significó una merma en la producción de uvas blancas; sin
+                                    embargo, esto no afectó a las tintas, que se mantienen alineadas con su promedio
+                                    histórico. <br>
+
+                                    La actividad climática de este año hace que esta vendimia sea única. Con este
+                                    panorama, la cosecha 2022 está demostrando ser muy buena para Bodega Luigi Bosca.
+                                    Nuestros principales desafíos por delante son seguir cosechando uvas sanas y ser muy
+                                    precisos en su vinificación, para potenciar todo lo que alcanzamos en las fincas y
+                                    así lograr vinos de excelente calidad de esta añada.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <a href="/novedades/vendimia.html" target="_blank">Conocer más</a> <span class="flecha"></span> -->
             </div>
+            <!-- novedad 6 -->
             <div class="noticia">
                 <img src="img/eventos/chardonay.jpg" alt="chardonay">
                 <h2>Chardonnay y Sauvignon Blanc: 7 claves para diferenciarlas</h2>
                 <p>Mayo es el mes de los cepajes blancos por excelencia: mientras que el sábado 7 se celebra en todo
-                    el mundo el Día del Sauvignon Blanc, el jueves 26 es el Día Internacional del Chardonnay. Cepas blancas más consumidas en la Argentina.</p>
-                <a href="/novedades/chardonay.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                    el mundo el Día del Sauvignon Blanc, el jueves 26 es el Día Internacional del Chardonnay. Cepas
+                    blancas más consumidas en la Argentina.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_6">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Chardonnay y Sauvignon Blanc: 7 claves
+                                    para diferenciarlas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Son las cepas blancas más consumidas en la Argentina.</p> <br><br>
+                                <p>Mayo es el mes de los cepajes blancos por excelencia: mientras que el sábado 7 se
+                                    celebra en todo el mundo el Día del Sauvignon Blanc, el jueves 26 es el Día
+                                    Internacional del Chardonnay. Más allá de ser dos de las variedades para la
+                                    elaboración de vinos más importantes del mundo, también son las cepas blancas más
+                                    consumidas en la Argentina.
+                                    Las uvas Chardonnay y Sauvignon Blanc tienen mucho en común: ambas son de origen
+                                    francés, están implantadas en prácticamente todos los terruños prestigiosos del
+                                    planeta, y en nuestro país continúan creciendo a paso firme en términos de calidad.
+                                    Sin embargo, también son muy diferentes entre sí por su tipicidad; por lo tanto,
+                                    también proponen distintos maridajes y situaciones de consumo.<br><br> A
+                                    continuación, las 7 claves para distinguirlas y conocerlas mejor:</p>
+                                <ol>
+                                    <li>El color: La vista es el primer sentido que nos da información sobre un vino. El
+                                        Sauvignon Blanc suele ser más bien translúcido, sus ejemplares son de color
+                                        amarillo claro con reflejos que van del verde-limón al dorado. El Chardonnay, en
+                                        cambio, es más denso a la vista, de una tonalidad amarilla más intensa que luego
+                                        del paso por roble se vuelve de un color oro profundo.</li><br>
+                                    <li>La intensidad aromática: La segunda fase de la cata es la olfativa. El Sauvignon
+                                        Blanc suele tener aromas más exuberantes y sueltos, por lo tanto, tiene más
+                                        intensidad aromática que el Chardonnay, que suele ser más sobrio y señorial.
+                                        En nariz, algunos de los descriptores aromáticos que se perciben en el Sauvignon
+                                        Blanc son espárragos, frutas tropicales (ananá y maracuyá), cítricos (pomelo
+                                        rosado y lima), notas herbáceas y otras minerales, dependiendo del terruño. <br>
+                                        Por su parte, el Chardonnay cambia sustancialmente de acuerdo a su vinificación:
+                                        puede desarrollar un perfil más expresivo o uno más austero. En todos los casos,
+                                        sus aromas recuerdan al durazno, el mango, la pera, el melón y los minerales
+                                        (esto último solo en suelos más pedregosos).</li><br>
+                                    <li>Pungencia y redondez: En boca, el Sauvignon Blanc se percibe como un vino
+                                        pungente, fresco y con más acidez. Sus vinos son ligeros, etéreos y de paso
+                                        ágil, filosos y con tensión. En cambio, el Chardonnay es fundamentalmente
+                                        redondo, ancho en boca y con una untuosidad envolvente.</li><br>
+                                    <li>La madera: En general, los varietales de Sauvignon Blanc no suelen ser criados
+                                        en barricas de roble. En cambio, es cada vez más usual que las bodegas
+                                        argentinas elaboren grandes Chardonnay con fermentaciones y largas crianzas en
+                                        roble. Luego de su paso por madera, estos vinos se vuelven más untuosos,
+                                        complejos y elegantes, y desarrollan notas dulces a vainilla y miel.</li><br>
+                                    <li>Capacidad de guarda: En general, se recomienda beber los Sauvignon Blanc
+                                        jóvenes, apenas salen al mercado. Por su parte, los Chardonnay -especialmente
+                                        aquellos con crianza en roble- suelen tener una capacidad de guarda de al menos
+                                        2 años que les aporta interesantes notas de evolución.</li><br>
+                                    <li>Situaciones de consumo: Por su frescura y vivacidad, el Sauvignon Blanc es
+                                        perfecto para disfrutar en un almuerzo liviano o beber como aperitivo. El
+                                        Chardonnay es muy versátil, ya que cuenta con distintos estilos que permiten
+                                        acompañar desde una comida informal hasta una cena de pasos.</li><br>
+                                    <li>Maridajes: Por sus notas cítricas y su acidez pronunciada, el Sauvignon Blanc
+                                        acompaña muy bien algunas preparaciones de sabores definidos, tipo finger food,
+                                        como ostras y langostinos grillados. El Chardonnay tiene más cuerpo y
+                                        estructura, por lo tanto, combina con platos más contundentes como un arroz con
+                                        frutos de mar o atún con vegetales salteados.</li><br>
+                                </ol>
+                                <div class="cita">
+                                    <span>"Más allá de ser dos de las variedades para la elaboración de vinos más
+                                        importantes del mundo, también son las cepas blancas más consumidas en la
+                                        Argentina."</span>
+                                    <img src="img/modal/vino_blanco.jpg" alt="chardonay">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="/novedades/chardonay.html" target="_blank">Conocer más</a> <span class="flecha"></span> -->
             </div>
+            <!-- novedad 7 -->
             <div class="noticia">
                 <img src="img/eventos/feria_1.jpg" alt="feria">
                 <h2>De Mendoza al mundo. Llega la feria virtual que reúne a los referentes globales del mundo del
                     vino y las bebidas espirituosas</h2>
                 <a href="https://winespiritsvirtualfair.com/es-es/wine-and-spirits-virtual-fair/"
-                    target="_blank">Conocer más</a> <span class="flecha"></span>
+                    target="_blank"><button type="button" class="btn btn-primary">
+                        Conocer más
+                    </button></a> 
             </div>
+            <!-- novedad 8 -->
             <div class="noticia">
                 <img src="img/eventos/feria_2.jpg" alt="winecomerce">
 
                 <h2>4ta Edición Wine E-Commerce Mendoza 2022</h2>
-                <p>Diseñado para bodegas. Te contamos cómo el mundo online está revolucionando el sector y cómo hacer para aprovecharlo.</p>
-                <a href="https://www.wineecommerce.co/" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <p>Diseñado para bodegas. Te contamos cómo el mundo online está revolucionando el sector y cómo hacer
+                    para aprovecharlo.</p>
+                <a href="https://www.wineecommerce.co/" target="_blank"><button type="button" class="btn btn-primary">
+                    Conocer más
+                </button></a> 
             </div>
+            <!-- novedad 9 -->
             <div class="noticia">
                 <img src="img/eventos/invitation.jpg" alt="invitation">
                 <h2>"Bodega Villa Antigua recibió una invitación especial a Wine Taste Chile donde
                     presentamos nuestros mejores varietales"</h2>
-                <a href="https://tastewine.cl/" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <a href="https://tastewine.cl/" target="_blank"><button type="button" class="btn btn-primary">
+                    Conocer más
+                </button></a>
             </div>
+            <!-- novedad 10 -->
             <div class="noticia">
                 <img src="img/eventos/malbec.jpg" alt="malbec">
                 <h2>7 datos para entender el éxito del Malbec en el mundo</h2>
                 <p>Si bien es una uva relativamente antigua, proveniente de la región francesa de Cahors e
                     introducida en nuestro país en el año 1868, fue recién en los últimos 20 años que el Malbec
                     argentino conquistó al mundo entero.</p>
-                <a href="/novedades/malbec.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_10">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">7 datos para entender el éxito del Malbec
+                                    en el mundo</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Si bien es una uva relativamente antigua, proveniente de la región francesa de Cahors
+                                    e introducida en nuestro país en el año 1868, fue recién en los últimos 20 años que
+                                    el Malbec argentino conquistó al mundo entero. Con un incremento constante de las
+                                    hectáreas implantadas con esta variedad en el territorio nacional y un aumento
+                                    permanente de la producción, a partir de 2003 comenzó el “boom” de las exportaciones
+                                    de Malbec fronteras afuera. <br>
+
+                                    De acuerdo con las estadísticas difundidas por el Observatorio Vitivinícola
+                                    Argentino (OVA), en el año 2002 Argentina exportaba 6,6 millones de litros de
+                                    malbec, por un valor de USD 14.446.757. En 2003 se vendieron al exterior 10,2
+                                    millones de litros por USD 23 millones y en 2004 se produjo un fenómeno sin igual
+                                    hasta el día de hoy: las exportaciones de Malbec crecieron 142% en valor -logrando
+                                    una facturación de USD 55,9 millones- y 124% en volumen, alcanzando los 23 millones
+                                    de litros. Desde ese entonces, los envíos de este varietal al exterior siguieron
+                                    aumentando todos los años, con Estados Unidos como principal comprador. <br>
+                                    Tal es así, que según un informe publicado por el OVA a fines del año pasado, el
+                                    Malbec fue el principal impulsor de las exportaciones récord de vino argentino en
+                                    2021. Entre enero y octubre pasados, el Malbec representó U$S 427 millones, con un
+                                    crecimiento del 16,5% respecto a 2020 y una participación en el total de
+                                    exportaciones de vino fraccionado del 55%. De los U$S 89 millones de incremento en
+                                    las exportaciones de vino fraccionado entre enero y octubre de 2021 -en contraste
+                                    con el mismo período del año anterior-, el Malbec aportó U$S 60,3 millones, es
+                                    decir, un 68% de ese incremento total. Así, este varietal fue el principal motor de
+                                    crecimiento con 102 millones de litros exportados del total de 183,2 millones de
+                                    litros. <br><br></p>
+                                <img src="/novedades/img/mes_malbec.jpg" alt="malbec" width="60%">
+
+                                <p>A continuación, compartimos 7 datos para entender el por qué del éxito del Malbec en
+                                    el mundo entero.</p><br>
+
+                                <ol>
+                                    <li>Versatilidad; en la variedad está el gusto: La cepa Malbec es sumamente
+                                        versátil, por lo tanto, permite elaborar vinos muy diferentes entre sí. Los hay
+                                        más jóvenes y ligeros; más estructurados y potentes; y más elegantes, con
+                                        taninos muy redondos y su dulzura natural acentuada por largas crianzas en
+                                        roble.</li><br>
+
+                                    <li>Vinos muy gastronómicos: Esta variedad es muy generosa a la hora de armonizar
+                                        con distintos platos. Mientras que los más livianos y frutales se pueden beber
+                                        como aperitivo o con un tentempié, los ejemplares más complejos permiten
+                                        acompañar un amplio abanico de carnes, quesos y pastas.</li><br>
+                                    <li>Tintos de terroir: El Malbec es la variedad perfecta para los distintos terruños
+                                        argentinos, ya que se expresa de distintas maneras -todas interesantes- de
+                                        acuerdo a su terroir de origen. Sus aromas predominantes son las notas a ciruela
+                                        y frutos rojos, aunque también son especiados y florales. Dependiendo del
+                                        terruño y la vinificación, también aparece la violeta, la malva y el clavo de
+                                        olor.</li><br>
+                                    <li>Su corazón frutal: Es un cepaje sencillo, agradable, fácil de entender y
+                                        seductor para todo el mundo. Tiene una impronta frutal, casi dulce, que se
+                                        amalgama con sus taninos redondos y maduros.</li><br>
+                                    <li>Continúa siendo una novedad: Si bien es una uva que se vinifica en Francia desde
+                                        hace cientos de años, para el mundo es relativamente nueva aún. Mientras que el
+                                        Cabernet Sauvignon, el Cabernet Franc y el Merlot gozan de un prestigio
+                                        histórico, la variedad Malbec es relativamente novedosa para los consumidores.
+                                    </li><br>
+                                    <li>Conquistó a la crítica internacional: Desde hace más de una década, todos los
+                                        grandes referentes, sommeliers, críticos y publicaciones especializadas
+                                        empezaron a hablar del Malbec y a darle un lugar preponderante en el mapa
+                                        vitivinícola internacional. En consecuencia, esto también potenció su fama
+                                        mundial.</li><br>
+                                    <li>Logró una calidad world-class: A fines del siglo XX, los vinos considerados de
+                                        alta gama eran únicamente los grandes tintos italianos y españoles, los Cabernet
+                                        Sauvignon premium de Napa Valley y los prestigiosos ejemplares de la Borgoña y
+                                        Burdeos. Sin embargo, en los últimos años los Malbec que conmovieron al mundo
+                                        entero también lograron una calidad world-class.</li><br>
+                                </ol>
+                                <div class="cita">
+                                    <span>"Según un informe publicado por el OVA a fines del año pasado, el Malbec fue
+                                        el principal impulsor de las exportaciones récord de vino argentino en
+                                        2021"</span>
+                                    <img src="img/modal/malbec_2.jpg" alt="malbec">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- novedad 11 -->
             <div class="noticia">
                 <img src="img/eventos/vino_argentino.png" alt="vino_argentino">
                 <h2>24 de noviembre: Día del Vino Argentino | Mendoza ¡Espíritu Grande!</h2>
                 <p>Para los argentinos el vino es mucho más que una bebida; es parte de nuestra identidad cultural.
                     Al igual que el tango, el asado y la Cordillera de los Andes, el vino es un ícono que nos
                     representa y un embajador de la Argentina fronteras afuera.</p>
-                <a href="/novedades/vino_argentino.html" target="_blank">Conocer más</a> <span class="flecha"></span>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal_11">
+                    Conocer más
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal_11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">24 de noviembre: Día del Vino Argentino
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>¿Qué significa el Día del Vino Argentino?<br><br><br>
+                                    Para los argentinos el vino es mucho más que una bebida; es parte de nuestra
+                                    identidad cultural. Al igual que el tango, el asado y la Cordillera de los Andes, el
+                                    vino es un ícono que nos representa y un embajador de la Argentina fronteras afuera.
+                                    <br>
+                                    Con el Malbec como punta de lanza, los tintos y blancos nacionales seducen a los
+                                    consumidores del mundo entero. Pero además, la vitivinicultura es un gran motor
+                                    turístico para el país; las propuestas turísticas de las bodegas -cada vez más
+                                    sofisticadas- en el marco de los paisajes andinos, convocan turistas de los cinco
+                                    continentes maravillados por los aromas y sabores de nuestros vinos. <br><br>
+
+                                    Desde el 24 de noviembre de 2010, cuando fue declarado por decreto presidencial como
+                                    Bebida Nacional, cada año se conmemora en esta fecha el Día del Vino Argentino.
+                                    Esta celebración tiene como objetivo destacar el valor del vino y la
+                                    vitivinicultura, su arraigo en nuestra tierra y su valor cultural como elemento
+                                    identitario. Así, la Argentina se convirtió en el único país del mundo que declaró
+                                    al vino que se elabora en su territorio como la bebida nacional.</p> <br>
+                                <div class="cita">
+                                    <span>"La Argentina es el país vitivinícola más importante de América del Sur y uno
+                                        de los 10 más relevantes en el mapa del vino internacional"</span>
+                                    <img src="img/modal/vino_argentino_2.jpg" alt="vino_argentino">
+                                </div>
+                                <p>Además, en el año 2013 ese decreto inicial fue ratificado por una ley con unanimidad
+                                    de votos en el Congreso Nacional, en la que se reconoce al vino como un alimento
+                                    emblemático que forma parte de nuestra dieta. La Ley Nacional Nº26.870 contempla la
+                                    difusión de las características culturales de la elaboración y el consumo del vino,
+                                    la promoción de la imagen del Vino Argentino en todo tipo de eventos oficiales, el
+                                    impulso del desarrollo de las economías regionales a partir de actividades
+                                    vinculadas al sector vitivinícola, y la revalorización de los recursos humanos
+                                    asociados a la producción: desde el viñedo hasta la comercialización.<br><br>
+
+                                    La Argentina es el país vitivinícola más importante de América del Sur y uno de los
+                                    10 más relevantes en el mapa del vino internacional. La actividad vitivinícola es
+                                    uno de los grandes motores de las economías de las provincias productoras y, a
+                                    diferencia de otros productos, genera un alto valor agregado en origen. Desde el
+                                    norte, en Jujuy y Salta, hasta los terruños de la Patagonia, las más de 230.000
+                                    hectáreas cultivadas con vid convierten a nuestro territorio en uno de los más
+                                    diversos en climas, suelos y culturas.<br><br>
+
+                                    Asimismo, desde los trabajos agronómicos en las fincas hasta la distribución y
+                                    comercialización de los vinos, la actividad vitivinícola genera a lo largo y ancho
+                                    del país miles de empleos. La cadena vitivinícola genera más de 110.000 puestos de
+                                    trabajo directos y más de 280.000 empleos indirectos relacionados con esta
+                                    industria.<br><br>
+
+                                    Con respecto a la comercialización, la actividad vitivinícola es una de las 10
+                                    principales cadenas exportadoras del país: más de 500 exportadores argentinos llegan
+                                    a 120 mercados del mundo con vinos, jugo de uva concentrado, pasas y uva de mesa. Un
+                                    dato igual de interesante es que 7 de cada 10 litros de vino que se elaboran en la
+                                    Argentina se consumen en el país. <br><br>
+                                    Más allá de la legislación que lo confirma, por su importancia social, cultural,
+                                    turística y económica el vino es, sin lugar a dudas, la bebida nacional.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="noticia">
-                <img src="img/eventos/feria_3.jpg" alt="wine_tech">
-                <h2>Llega la 1ra. edición de Wine Tech Forum</h2>
-                <p>Evento virtual organizado por VinosyNegocios.com junto a
-                    e-commerce BottleHub, que se proponen debatir acerca del impacto presente y futuro de la
-                    digitalización por la que atraviesa el negocio del vino.</p>
-                <a href="https://acercatealvino.com.ar/2020/05/21/wine-tech-forum/" target="_blank">Conocer más</a> <span class="flecha"></span>
-            </div>
+        <!-- novedad 12        -->
+        <div class="noticia">
+            <img src="img/eventos/feria_3.jpg" alt="wine_tech">
+            <h2>Llega la 1ra. edición de Wine Tech Forum</h2>
+            <p>Evento virtual organizado por VinosyNegocios.com junto a
+                e-commerce BottleHub, que se proponen debatir acerca del impacto presente y futuro de la
+                digitalización por la que atraviesa el negocio del vino.</p>
+                 
+            <a href="https://acercatealvino.com.ar/2020/05/21/wine-tech-forum/" target="_blank"><button type="button" class="btn btn-primary">Conocer más</button></a> 
+        
         </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+
     </main>
     <footer>
         <p>Diseñado por Soledad Orozco - Año 2022</p>
